@@ -1,0 +1,74 @@
+.w1 {
+	font-weight: bold;
+	border-bottom: 2px solid gray;
+}
+.w2 {
+	font-weight: normal;
+	border-bottom: 2px solid gray;
+}
+.w3 {
+	font-weight: lighter;
+	border-bottom: 2px solid gray;
+}
+.s1 {
+	font-style: italic;
+	border-bottom: 2px solid gray;
+}
+.s2 {
+	font-style: oblique;
+	border-bottom: 2px solid gray;
+}
+.s3 {
+	font-style: inherit;
+	border-bottom: 2px solid gray;
+}
+.l1 {
+	letter-spacing: 5px;
+	border-bottom: 2px solid gray;
+}
+.l2 {
+	letter-spacing: -3px;
+	border-bottom: 2px solid gray;
+}
+.l3 {
+	letter-spacing: 9.3px;
+	border-bottom: 2px solid gray;
+}
+.t1 {
+	text-transform: uppercase;
+	border-bottom: 2px solid gray;
+}
+.t2 {
+	text-transform: lowercase;
+	border-bottom: 2px solid gray;
+}
+.t3 {
+	text-transform: capitalize;
+	border-bottom: 2px solid gray;
+}
+.d1 {
+	text-decoration: overline;
+	border-bottom: 2px solid gray;
+}
+.d2 {
+	text-decoration: line-through;
+	border-bottom: 2px solid gray;
+}
+.d3 {
+	text-decoration: underline;
+	border-bottom: 2px solid gray;
+}
+span {
+	line-height: 4;
+	background-color: red;
+}
+body {
+	background-color: pink;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+}
+h1 {
+	color: gray;
+	border-bottom: dotted;
+}
