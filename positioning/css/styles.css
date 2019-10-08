@@ -27,8 +27,12 @@ section {
 
 .two aside {
 	position: absolute;
-	right: 8px;
-	top: 847px;
+	right: 0px;
+	bottom: 0px;
+}
+
+#twosection {
+	position: relative;
 }
 
 .three aside {
