@@ -1,0 +1,183 @@
+body {
+	font-family: helvetica-neue, sans-serif;
+	margin: 20px;
+	background-color: #ededd7;
+	color: #515151;
+}
+
+header {
+	font-family: lithos-pro, sans-serif;
+	font-weight: 400;
+	border-bottom: solid 5px #515151;
+	height: 22px;
+	position: fixed;
+	background-color: #ededd7;
+	width: 95.25%;
+	top: 0px;
+	padding-top: 20px;
+}
+
+img {
+	width: 100%;
+	display: inline-block;
+	margin-top: 53px;
+}
+
+.firstdiv {
+	text-align: center;
+}
+
+.firstdiv > p:first-of-type {
+	font-size: 28px;
+	border-bottom: solid 5px #515151;
+	display: inline-block;
+	margin-top: 45px;
+}
+
+.firstdiv > p:nth-of-type(3) {
+	font-weight: 300;
+	text-align: center;
+	margin-right: 140px;
+}
+
+.firstdiv > p:nth-of-type(4) {
+	font-weight: 300;
+	text-align: center;
+	margin-right: 200px;
+/*	border-bottom: dotted;*/
+}
+
+.firstdiv > p:nth-of-type(2) {
+	margin-top: 3px;
+	font-weight: 300;
+	text-align: center;	
+	margin-right: 140px;
+}
+
+h2 {
+	font-size: 30px;
+	margin-left: 15px;
+	margin-top: 150px;
+	font-weight: 400;
+}
+
+span {
+	display: inline-block;
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 23px;
+	margin-bottom: 4px;
+}
+
+.ingredients > p {
+	margin-left: 15px;
+	margin-right: 200px;
+}
+
+.ingredients > li {
+	margin-left: 35px;
+/*	margin-right: 200px;*/
+	text-indent: -20px;
+}
+
+
+.sauce > p {
+	margin-left: 15px;
+	margin-right: 180px;
+}
+
+.sauce > li {
+	margin-left: 15px;
+/*	margin-right: 200px;*/
+}
+
+.sauce span {
+	margin-top: 18px;
+}
+
+.directions {
+	margin-left: 15px;
+	line-height: 22px;
+}
+
+.directions > p:first-of-type {
+	margin-top: 90px;
+}
+
+.directions > img {
+	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.second {
+	margin-left: 15px;
+	margin-top: 180px;
+	line-height: 22px;
+}
+
+.second > img {
+	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.third {
+	margin-left: 15px;
+	margin-top: 150px;
+	line-height: 22px;
+}
+
+.third > img {
+	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.fourth {
+	margin-left: 15px;
+	margin-top: 130px;
+	line-height: 22px;
+}
+
+.fourth > img {
+	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.fifth {
+	margin-left: 15px;
+	margin-top: 260px;
+	line-height: 22px;
+}
+
+.fifth > img {
+	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+.sixth {
+	margin-left: 15px;
+	margin-top: 245px;
+	margin-bottom: 300px;
+	line-height: 22px;
+}
+
+.sixth > img {
+	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;
+}
+
+footer {
+	font-size: 12px;
+	text-align: right;
+}
