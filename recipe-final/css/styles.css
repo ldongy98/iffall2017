@@ -1,0 +1,276 @@
+body {
+	font-family: helvetica-neue, sans-serif;
+	margin: 20px;
+	background-color: #ededd7;
+	color: #515151;
+}
+
+header {
+	font-family: lithos-pro, sans-serif;
+	font-weight: 400;
+	border-bottom: solid 5px #515151;
+	height: 22px;
+	position: fixed;
+	background-color: #ededd7;
+	width: calc(100% - 40px);
+	top: 0px;
+/*	border-width: calc(95.25%);*/
+	padding-top: 20px;
+}
+
+img {
+	width: 100%;
+	display: inline-block;
+	margin-top: 53px;
+}
+
+.firstdiv {
+	text-align: center;
+}
+
+.firstdiv > p:first-of-type {
+	font-size: 35px;
+	border-bottom: solid 5px #515151;
+	display: inline-block;
+	margin-top: 45px;
+}
+
+.firstdiv > p:nth-of-type(3) {
+	font-weight: 300;
+	text-align: center;
+	margin-right: 140px;
+	font-size: 20px;
+}
+
+.firstdiv > p:nth-of-type(4) {
+	font-weight: 300;
+	text-align: center;
+	margin-right: 215px;
+/*	border-bottom: dotted;*/
+	font-size: 20px;
+}
+
+.firstdiv > p:nth-of-type(2) {
+	margin-top: 3px;
+	font-weight: 300;
+	text-align: center;	
+	margin-right: 140px;
+	font-size: 20px;
+}
+
+h2 {
+	font-size: 35px;
+	margin-left: 15px;
+	margin-top: 180px;
+	font-weight: 400;
+}
+
+span {
+	display: inline-block;
+	margin-top: 20px;
+	font-weight: 400;
+	font-size: 25px;
+	margin-bottom: 4px;
+}
+
+.ingredients > p {
+	margin-left: 15px;
+	margin-right: 200px;
+}
+
+.ingredients > li {
+	margin-left: 41px;
+/*	margin-right: 200px;*/
+	text-indent: -26px;
+	line-height: 25px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+
+.sauce > p {
+	margin-left: 15px;
+/*	margin-right: 180px;*/
+}
+
+.sauce > li {
+/*	margin-left: 15px;
+	margin-right: 200px;
+	line-height: 20px;*/
+	margin-left: 41px;
+/*	margin-right: 200px;*/
+	text-indent: -26px;
+	line-height: 25px;
+	font-size: 20px;
+	font-weight: lighter;
+}
+
+.sauce span {
+	margin-top: 25px;
+}
+
+.directions {
+	margin-left: 15px;
+	line-height: 22px;
+}
+
+.directions > p:first-of-type {
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+.directions img {
+/*	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;*/
+	width: /*17%;*/ 270px;
+	float: right;
+	margin-top: 0;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.directions > li {
+	list-style-type: none;
+	margin-top: 240px;
+	font-size: 20px;
+}
+
+.directions > li:first-of-type {
+	font-weight: lighter;
+}
+
+.directions > li:nth-of-type(2) {
+	margin-top: 370px;
+	font-weight: lighter;
+}
+
+.directions > li:nth-of-type(3) {
+	margin-top: 370px;
+	font-weight: lighter;
+}
+
+.directions > li:nth-of-type(4) {
+	margin-top: 370px;
+	font-weight: lighter;
+}
+
+.directions > li:nth-of-type(5) {
+	margin-top: 370px;
+	font-weight: lighter;
+}
+
+.directions > li:nth-of-type(6) {
+	margin-top: 370px;
+	font-weight: lighter;
+}
+
+.second {
+	margin-left: 15px;
+	margin-top: 240px;
+	line-height: 22px;
+}
+
+.second > img {
+/*	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;*/
+	width: 17%;
+	float: right;
+	margin-top: 0;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.third {
+	margin-left: 15px;
+	margin-top: 210px;
+	line-height: 22px;
+}
+
+.third > img {
+/*	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;*/
+	width: 17%;
+	float: right;
+	margin-top: 0;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.fourth {
+	margin-left: 15px;
+	margin-top: 190px;
+	line-height: 22px;
+}
+
+.fourth > img {
+	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;
+		width: 17%;
+	float: right;
+	margin-top: 0;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.fifth {
+	margin-left: 15px;
+	margin-top: 320px;
+	line-height: 22px;
+}
+
+.fifth > img {
+/*	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;*/
+	width: 17%;
+	float: right;
+	margin-top: 0;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+.sixth {
+	margin-left: 15px;
+	margin-top: 305px;
+	margin-bottom: 300px;
+	line-height: 22px;
+}
+
+.sixth > img {
+/*	width: 250px;
+	float: right;
+	margin-top: 0;
+	margin-left: 20px;*/
+	width: 17%;
+	float: right;
+	margin-top: 0;
+	box-sizing: border-box;
+	display: inline-block;
+}
+
+footer:first-of-type {
+	margin-top: 400px;
+	font-size: 12px;
+	text-align: right;
+	border-top: solid 2px #515151;
+}
+
+footer:nth-of-type(2) {
+	font-size: 12px;
+	text-align: right;
+	margin-top: 6px;
+}
+
+a {
+	text-decoration: none;
+	color: #e86d20;
+}
