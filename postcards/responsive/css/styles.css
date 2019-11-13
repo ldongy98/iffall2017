@@ -1,0 +1,168 @@
+.one {
+	padding: 0;
+	margin: 0;
+	font-family: 'Nunito', sans-serif;
+	background-image: url('../images/up.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.two {
+	padding: 0;
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+	background-image: url('../images/mb_character-dug_launch_2x.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.three {
+	padding: 0;
+	margin: 0;
+	background-image: url('../images/maxresdefault.jpg');
+	background-size: 100%;
+	font-family: 'Acme', sans-serif;
+	background-repeat: no-repeat;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+	max-width: 100%;
+	display: inline-block;
+	position: absolute;
+}
+
+.txt1 {
+	z-index: 10;
+	color: white;
+	position: absolute;
+	text-transform: uppercase;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+
+.txt2 {
+	z-index: 10;
+	color: black;
+	position: absolute;
+	text-transform: uppercase;
+	margin-left: 120px;
+	margin-top: 50px;
+}
+
+.txt3 {
+	z-index: 10;
+	color: white;
+	position: absolute;
+	text-transform: uppercase;
+/*	margin-left: 120px;
+	margin-top: 50px;*/
+}
+
+@media screen and ( max-width:900px) {
+	.txt1 {
+		font-size: 45px;
+		font-weight: bold;
+		text-shadow: 2px 2px #ff0000;
+	}
+	.txt3 {
+		font-size: 45px;
+		color: rgba(242, 242, 242);
+		background-color: rgba(240, 245, 245, 0.3);
+		width: 100%;
+		height: 100%;
+		padding-left: 150px;
+		padding-top: 45px;
+		text-shadow: 2px 4px #333333;
+	}
+}
+
+@media screen and ( min-width:900px ) {
+	.txt1 {
+		font-size: 40px;
+		font-weight: bolder;
+		background-color: rgba(236, 217, 198, 50%);
+		color: black;
+		padding-left: 10px;
+		width: 400px;
+	}
+	.txt3 {
+		font-size: 20px;
+		margin-left: 72%;
+		margin-top: 16%;
+		display: block;
+	}
+}
+
+@media screen and (min-width: 100px) {
+	.txt3 {
+		font-size: 40px;
+		margin-right: 2%;
+	}
+}
+
+@media screen and ( max-width:720px ) {
+	.txt1 {
+		font-size: 35px;
+		margin-left: 480px;
+		margin-top: 20px;
+	}
+	.txt3 {
+		font-size: 20px;
+		padding-left: 10%;
+		background-color: transparent;
+		text-shadow: 2px 3px #b30000;
+	}
+}
+
+@media screen and ( max-width:700px ) {
+	.txt1 {
+		font-size: 25px;
+		margin-top: 70px;
+		margin-left: 40px;
+	}
+	.txt2 {
+	font-size: 30px;
+	margin-top: 35px;
+	margin-left: 45px;
+	margin-right: 400px;
+	text-shadow: 2px 2px rgba(255, 77, 136, 0.5);
+	}	
+}
+
+@media screen and (max-width:530px) {
+	.txt1 {
+		font-size: 15px;
+		margin-top: 10px;
+	}
+}
+
+@media screen and (min-width:720px ) {
+	.txt2 {
+		font-size: 35px;
+		margin-right: 350px;
+		margin-top: 5px;
+		padding-left: 10px;
+		background-color: rgba(255, 77, 136, 0.4);
+	}
+}
+
+@media screen and (max-width:650px) {
+	.txt2 {
+		font-size: 20px;
+		margin-left: 340px;
+		margin-right: 0px;
+		margin-top: 30px;
+		display: inline-block;
+		background-color: rgba(173, 235, 173, 0.6);
+	}
+}
+
+@media screen and (max-width: 470px) {
+	.txt2 {
+		font-size: 17px;
+		margin-left: 5%;
+		margin-right: 55%;
+	}
+}
